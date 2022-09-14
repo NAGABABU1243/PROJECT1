@@ -17,10 +17,11 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>Project1</sonar.projectKey>
+		<sonar.projectKeyrepository>Project1</sonar.projectKeyrepository>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqp_bc6077de4d9a0bf29c954d89d515c39c854cf63c</sonar.login>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>password</sonar.password>
 
 	</properties>
 
@@ -127,7 +128,7 @@
 		<repository>
 			<id>artifactory</id>
 			<name>Calc_Dev_Snapshot</name>
-			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>
+			<url>http://localhost:8081/artifactory/Calc_Dev_Snapshot</url>				
 		</repository>
 	</distributionManagement>
 </project>
